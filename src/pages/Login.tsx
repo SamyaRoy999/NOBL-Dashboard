@@ -40,7 +40,8 @@ const Login: React.FC = () => {
         >
           <Input
             placeholder="abidhasan@gmail.com"
-            style={{ height: "50px", width: "481px" }}
+            style={{ height: "50px", width: "481px",backgroundColor: "#fefefe"}}
+            className="bg-[#fefefe]"
           />
         </Form.Item>
         <Form.Item

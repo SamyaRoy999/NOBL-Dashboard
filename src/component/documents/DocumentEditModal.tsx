@@ -138,9 +138,19 @@ const DocumentEditModal: React.FC<DocumentEditModalProps> = ({
                 className="w-full bg-[#F0F0F0]"
                 size="large"
               >
-                <Option value="nature">Nature</Option>
-                <Option value="technology">Technology</Option>
-                <Option value="people">People</Option>
+                <Option value="payscales">PayScale’s</Option>
+                <Option value="binder">Binder</Option>
+                <Option value="slicks">Slicks</Option>
+                <Option value="career_progress_sheets">
+                  Career Progress Sheets
+                </Option>
+                <Option value="agreements_examples">Agreements Examples</Option>
+                <Option value="basafasa_information">
+                  BASAFASA Information
+                </Option>
+                <Option value="blitz_trips">Blitz Trips</Option>
+                <Option value="incentives">Incentives</Option>
+                <Option value="playbook">Playbook</Option>
               </Select>
             </div>
             {/* Image Preview Section */}
