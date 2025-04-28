@@ -45,7 +45,7 @@ const Videos = () => {
           <input
             type="search"
             className="w-[534px] p-4 border border-[#D9D9D9]"
-            placeholder="Search for user"
+            placeholder="Search for a video"
             name=""
             id=""
           />
