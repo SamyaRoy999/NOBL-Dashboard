@@ -117,8 +117,7 @@ const DocumentTable: React.FC = () => {
           </div>
           <div>
             <Popconfirm
-              title="Are you sure to delete this task?"
-              // description="Are you sure to delete this task?"
+              title="Are you sure to delete this document ?"
               onConfirm={confirm}
               onCancel={cancel}
               okText="Yes"
@@ -150,7 +149,7 @@ const DocumentTable: React.FC = () => {
       serial: "001",
       document: {
         thumbnail: img1,
-        title: "Training Video Part 1",
+        title: "Document 1",
       },
       documentType: ".pdf",
       category: "PayScale's to NOBL",
@@ -160,7 +159,7 @@ const DocumentTable: React.FC = () => {
       serial: "002",
       document: {
         thumbnail: img2,
-        title: "Training document Part 2",
+        title: "Document 2",
       },
       documentType: ".pdf",
       category: "PayScale's Value",
@@ -170,7 +169,7 @@ const DocumentTable: React.FC = () => {
       serial: "003",
       document: {
         thumbnail: img3,
-        title: "Training document Part 3",
+        title: "Document 3",
       },
       documentType: ".pdf",
       category: "PayScale's",
@@ -180,7 +179,7 @@ const DocumentTable: React.FC = () => {
       serial: "004",
       document: {
         thumbnail: img4,
-        title: "Training document Part 4",
+        title: "Document 4",
       },
       documentType: ".pdf",
       category: "PayScalespdf",
@@ -190,7 +189,7 @@ const DocumentTable: React.FC = () => {
       serial: "005",
       document: {
         thumbnail: img5,
-        title: "Training document Part 5",
+        title: "Document 5",
       },
       documentType: ".pdf",
       category: "PayScale's",
@@ -200,7 +199,7 @@ const DocumentTable: React.FC = () => {
       serial: "006",
       document: {
         thumbnail: img6,
-        title: "Training document Part 6",
+        title: "Document 6",
       },
       documentType: ".pdf",
       category: "PayScale's",
@@ -210,7 +209,7 @@ const DocumentTable: React.FC = () => {
       serial: "007",
       document: {
         thumbnail: img7,
-        title: "Training document Part 7",
+        title: "Document 7",
       },
       documentType: ".pdf",
       category: "PayScale's Value",

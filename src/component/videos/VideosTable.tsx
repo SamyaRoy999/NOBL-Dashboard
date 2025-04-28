@@ -113,8 +113,7 @@ const VideosTable: React.FC = () => {
           </div>
           <div>
             <Popconfirm
-              title="Are you sure to delete this task?"
-              // description="Are you sure to delete this task?"
+              title="Are you sure to delete this video?"
               onConfirm={confirm}
               onCancel={cancel}
               okText="Yes"
