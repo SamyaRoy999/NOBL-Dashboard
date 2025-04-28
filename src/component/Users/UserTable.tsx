@@ -72,8 +72,8 @@ const UserTable: React.FC = () => {
           {/* delete button */}
           <div>
             <Popconfirm
-              title="Are you sure to delete this task?"
-              // description="Are you sure to delete this task?"
+              title="Are you sure to delete this user ?"
+             
               onConfirm={confirm}
               onCancel={cancel}
               okText="Yes"
